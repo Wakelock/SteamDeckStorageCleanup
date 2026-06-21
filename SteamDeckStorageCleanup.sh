@@ -1,6 +1,6 @@
 #!/bin/bash
 # Steam Deck Storage Cleanup (2026 version)
-# Note: this script should only be ran if one desperately needs storage.
+# Note: this script should only be run if one desperately needs storage.
 # If there's still too little space afterwards, try replacing flatpaks with native apps.
 
 if [ "$(curl https://raw.githubusercontent.com/Wakelock/SteamDeckStorageCleanup/refs/heads/main/version.txt)" = "20260621" ]
@@ -9,7 +9,6 @@ then
 else
   echo "Warning: unless you're offline, this version might be outdated."
 fi
-
 
 # General cleanup
 flatpak uninstall --unused
