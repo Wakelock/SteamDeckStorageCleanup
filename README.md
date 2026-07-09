@@ -1,5 +1,5 @@
 # Steam Deck Storage Cleanup
-Delete unnecessary files from your Steam Deck
+Delete unnecessary files from your Steam Deck.
 
 ## Usage
 Minimal cleanup: `~/Documents/SteamDeckStorageCleanup.sh`
