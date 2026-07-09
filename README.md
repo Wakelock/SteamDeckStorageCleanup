@@ -1,5 +1,5 @@
 # Steam Deck Storage Cleanup
-Adjustable optimization script for SteamOS. Delete unnecessary files from your Steam Deck.
+Adjustable optimization script for SteamOS. Delete unnecessary files from your Steam Deck (or Steam Machine).
 
 ## Usage
 Minimal cleanup: `~/Documents/SteamDeckStorageCleanup.sh`
