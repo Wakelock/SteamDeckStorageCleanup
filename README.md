@@ -1,10 +1,18 @@
 # Steam Deck Storage Cleanup
 Adjustable optimization script for SteamOS. Delete unnecessary files from your Steam Deck/Machine.
 
+## Installation
+
+### Download
+`curl -L -o "$HOME/Documents/SteamDeckStorageCleanup.sh" "https://raw.githubusercontent.com/Wakelock/SteamDeckStorageCleanup/refs/heads/main/SteamDeckStorageCleanup.sh"`
+
+### Make executable
+`chmod +x "$HOME/Documents/SteamDeckStorageCleanup.sh"`
+
 ## Usage
 Minimal cleanup: `~/Documents/SteamDeckStorageCleanup.sh`
 
-Maximal cleanup `~/Documents/SteamDeckStorageCleanup.sh -sudo`
+Maximal cleanup: `~/Documents/SteamDeckStorageCleanup.sh -sudo`
 
 Check for updates: `~/Documents/SteamDeckStorageCleanup.sh -update`
 
